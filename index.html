@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+   <html>
+        <head>
+            <meta http-equiv="content-type" 
+            content="text/html" charset= "utf-8"/>
+            <title>Mi primer maquetación</title>
+            <!--vamos a agregarle a nuestro html colores, margenes, tamaños,entre otros -->
+            <style type="text/css">
+                   html,body{
+                      height: 100%;
+                    }         
+
+                    header{
+                        display: block;
+                        background: #3fcab3;
+                        padding: 30px 10px;
+                       
+                    }
+                    
+                    /*determinamos el contenido de un esquama, y le ponemos color color, width,
+                        background,float,overflow,padding-bottom,padding-top, */
+                    section{
+                        width: 79%;
+                        background:#3fcab3;
+                        float: left;
+                        overflow: auto;
+                        padding-bottom: 60px;
+                        padding-top: 30px;
+                    }
+                    /*agregaremos a nuestra sección el tamaño de los bordes y el color del cuadro donde estara nuestro nexto  */
+                    aside{
+                        float: right;
+                        border: 1px solid#3fcab3;
+                        width: 20%;
+                        height: 70%;
+                        padding: 10px 5px;
+                        background: #3fcab3;
+                        border-radius: 5 px;
+                        color:white;
+                        
+
+                    }/*configuramos nuestro pie de pagina con la posicion, el margen, color, texto, color de texto tipo de ingreso */
+                    footer{
+                        position: relative;
+                        margin-top: -50px;
+                        height: 40px;
+                        padding: 5px 0px;
+                        clear: both;
+                        background: #3ce69f;
+                        text-align: center;
+                        color: #ffff;
+                    }
+                    /*para nuestra imagen, definiremos el tipo de cuadro de representación con display, y le daremos un margen a la imagen*/
+                    figure{
+                        display: table;
+                        margin: 0 auto;
+                    }
+                    p{
+                        font-family: tohama;
+                        padding: 5px 55px;
+                        color: black ;
+                    }
+            </style>
+            
+        </head>
+
+        <body>
+                <!--agramos una imagen, con width, alt, height-->
+            <header>
+                    <img src="images/MANDALA.jpg"
+                    alt="mandala"
+                    width="1260"
+                    height="300">
+                 </header>
+                 <!---->
+            <section>
+                <figure>
+                    <img src="images/selfie.png"  
+                    alt="fam"
+                    width="500"
+                    height="300"
+                    >
+                     <figcaption>fig1.Rosas </figcaption>
+                </figure>
+                <!--agregaremos nuestra reseña curricular, agregando datos personales e informacion de nuestro curriculum -->
+                <h3><i><b><u>DATOS PERSONALES:</u></b></i></h3>
+                <p> <b>
+                    Egresada del centro de bachillerato tecnologíco industrian y de servicos #142,<br>
+                    con una especialidad de Laboratorista Químico actualmente soy estudiante de la<br>
+                    universidad veracruzana, en la facultad de negocios y tecnologías Cursando el <br>
+                    quinto semestre de la carrera "ingeniería de software". En el 2018 participe <br>
+                    en un hackaton y concurso de programacion en la ciudad de Xalapa. teniendo una <br>
+                    certificación oline de fundamentos SCRUM, ANGULAR y GIT
+                   </b>  
+                </p>
+                 
+                <p>
+                        
+                                <h3><i><b><u>DATOS PERSONALES:</u></b></i></h3>
+                                <p>
+                                <i>
+                                    <b>NOMBRE Y APELLIDO:</b></i>
+                                    <b>Rosas Hernández Guadalupe</b> <br>
+                                <i>
+                                    <b>EDAD:</b></i>
+                                    <b>20 años</b> <br>
+                                <i>
+                                    <b>FECHA DE NACIMIENTO:</b></i>
+                                    <b>10/12/1998</b> <br>
+                                <i>
+                                    <b>DIRECCION:</b></i>
+                                    <b>Camino a chicola, entrada Puerta del Sol. Colonia puera 
+                                       grande</b> <br>
+                                <i>
+                                    <b>TELEFONO CELULAR:</b></i>
+                                     <b>2727828652</b> <br>
+                                <i>
+                                    <b>CORREO ELECTRONICO:</b></i>
+                                    <b>guadaluperosas2112@gmail.com</b> <br>
+                                
+                                
+                                
+                </p>
+            </section>
+
+            <!--
+                texto que nos permite encerrarlo en un recuadro y moverlo a diferentes faltes, modificandolo desde css
+           -->
+            <aside>
+                <legend>¿QUÉ ES LA MAQUETACIÓN?</legend>
+                <p>El proceso de maquetación web es la transformación del diseño de un producto web en un conjunto de archivos
+                     (html, css, js) capaces de ser reproducidos por los navegadores web.
+                      La maquetación web es el proceso en el que el prototipo gráfico también denominado «layout»  
+                      (con los requisitos estructurales y estéticos definidos y aprobados en un análisis inicial) 
+                      pasa a transformase en código html, css y js (estándares web) para que los navegadores puedan 
+                      interpretarlo correctamente.</p>
+            </aside>
+             
+            <footer>
+                
+                <a href='https://www.facebook.com/guadalupe.rosashernandez.739'>facebook</a>
+                <a href='https://dsiapes.uv.mx/MiUVestudiantes/escritorio/smutiles.aspx'>my uv</a>
+
+
+            </footer>
+
+        </body>
+   </html>
